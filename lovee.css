@@ -1,0 +1,43 @@
+.romantic{
+position:relative;
+z-index:-1;
+left:35
+border:2px solid red;
+border-radius:5px;
+}
+#love{
+position:relative;
+width:20%;
+height:20%;
+top:-450px;
+}
+@media screen and (max-width:480px){
+.romantic{
+float:center;
+}
+#love{
+width:200px;
+height:200px;
+top:-490px;
+}
+}
+@media screen and (min-width:481px) and (max-width:760px){
+.romantic{
+float:center;
+}
+#love{
+width:200px;
+height:200px;
+top:-490px;
+}
+}
+@media screen and (min-width:761px) and (max-width:1020px){
+.romantic{
+float:center;
+}
+#love{
+width:200px;
+height:200px;
+top:-490px;
+}
+}
